@@ -24,6 +24,8 @@ def test_missing_data_raises_valueerror():
         with pytest.raises(ValueError):
             detect_duplicates(data)
 
+#Time was a big challange for me and led to me not having time to implement more than one test-case. I had problems with Python which took time away while my patch didn't work at first due to wrong namespace and configuration.
+
 # @pytest.mark.unit
 # def test_same_keys_returns_duplicates():
 #     # Arrange
@@ -77,3 +79,5 @@ def test_missing_data_raises_valueerror():
 #     ]
 # )
 # def test_invalid_email_raises_valueerror(usercontroller, test_input_email):
+
+#Time was a big challange for me and led to me not having time to implement more than one test-case. I had problems with Python which took time away while my patch didn't work at first due to wrong namespace and configuration.
